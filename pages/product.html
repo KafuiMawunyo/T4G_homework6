@@ -28,14 +28,43 @@
         .t5{font-size: 20px; font-family: cursive;}
         .s2{font-family: 20px; font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px;}}
         
+        /* styling for the navigation */
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            background-color: aliceblue;
+        }
         
+        .nav ul{
+            display: flex;
+            justify-content: space-between;
+            background-color: aqua;
+            /* gap: 40px; */
+            
+        }
+
+        .nav ul li a{
+            text-decoration: none;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        /* img{
+            width: 50%;
+        } */
 
         
     </style>
     
 </head>
 <body>
-    <nav>
+    <nav class="nav">
+        <div>
+            <img src="https://www.ntcommunity.org.au/wp-content/uploads/2023/07/Foodbank-Logo-Primary_RGB_Cropped.png" width="80" height="80" alt="">
+        
+        </div>
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="product.html">Product</a></li>
