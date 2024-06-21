@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Contact</title>
     <style>
+         nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            border: 20px double black ;
+            background-color: purple;
+            align-self: center;
+            
+        }
+        .menu li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu li{
+            list-style: none;
+            padding: 10px 0px;
+        }
+
         
     </style>
 </head>
@@ -13,7 +36,11 @@
     
 </body>
 <nav>
-    <ul>
+    <div>
+        <img src="https://www.ntcommunity.org.au/wp-content/uploads/2023/07/Foodbank-Logo-Primary_RGB_Cropped.png" width="80" height="80" alt="">
+    
+    </div>
+    <ul class="menu">
         <li><a href="../index.html">Home</a></li>
         <li><a href="product.html">Product</a></li>
         <li><a href="login.html">Login</a></li>

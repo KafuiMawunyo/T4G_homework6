@@ -6,66 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
     <style>
-        .s1{font-size:20px;font-family:cursive; border-radius: 20px; text-align: center;background-color: orange;}
         
-        .p2{font-family: 20px; font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px; font-size: 30px;}
-        .p3{font-family: 20px; font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px; font-size: 30px;}
-        .p4{font-family: 20px; font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px; font-size: 30px;}
-        .image1{text-align: center;}
-        .image1 img{border: 20px solid black; border-radius: 20px;border-style: ridge;}
+        .s1{
+            font-size:20px;
+            font-family:cursive;
+            border-radius: 20px;
+            text-align: center;
+            background-color: orange;
+        }
+        
+        .p2{
+            font-family: cursive;
+            background-color: orange;
+            border-radius: 20px;
+            padding-left: 10px;
+            font-size: 30px;
+        }
+
+        .p3{
+            font-family: cursive;
+            background-color: orange;
+            border-radius: 20px;
+            padding-left: 10px; 
+            font-size: 30px;
+        }
+
+        .p4{ 
+            font-family: cursive;
+            background-color: orange;
+            border-radius: 20px;
+            padding-left: 10px; 
+            font-size: 30px;
+        }
+
+        .image1{
+            text-align: center;
+        }
+
+        .image1 img{border: 20px solid black; border-radius: 20px;border-style: ridge; width: 500px;}
         .image2{text-align: center;}
-        .image2 img{border: 20px solid black; border-radius: 20px;border-style: ridge;}
+        .image2 img{border: 20px solid black; border-radius: 20px;border-style: ridge; width: 500px; height: 200px;}
         .image3{text-align: center;}
-        .image3 img{border:20px solid black;border-radius: 20px;border-style: ridge;}
+        .image3 img{border:20px solid black;border-radius: 20px;border-style: ridge; width: 500px; height: 200px;}
         .image4{text-align: center;}
-        .image4 img{border:20px solid black;border-radius: 20px;border-style: ridge;}
+        .image4 img{border:20px solid black;border-radius: 20px;border-style: ridge; width: 500px; height: 200px;}
         .image5{text-align: center;}
-        .image5 img{border: 20px solid black;border-radius: 20px;border-style: ridge;}
+        .image5 img{border: 20px solid black;border-radius: 20px;border-style: ridge; width: 500px; height: 200px;}
         .t1{font-size: 20px; font-family: cursive;}
         .t2{font-size: 20px; font-family: cursive;}
         .t3{font-size: 20px; font-family: cursive;}
         .t4{font-size: 20px; font-family: cursive;}
         .t5{font-size: 20px; font-family: cursive;}
-        .s2{font-family: 20px; font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px;}}
+        .s2{font-family: cursive;background-color: orange;border-radius: 20px;padding-left: 10px;}
         
         /* styling for the navigation */
-        .nav{
-            display: flex;
-            justify-content: space-around;
-            background-color: aliceblue;
-        }
-        
-        .nav ul{
+        nav{
             display: flex;
             justify-content: space-between;
-            background-color: aqua;
-            /* gap: 40px; */
-            
         }
 
-        .nav ul li a{
+        .logo{
+            width:80px;
+            height: 80px;
+        }
+
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            border: 20px double black ;
+            background-color: purple;
+            align-self: center;
+            
+        }
+        .menu li a{
+            color: white;
             text-decoration: none;
         }
 
-        li{
+        .menu li{
             list-style: none;
+            padding: 10px 0px;
         }
-
-        /* img{
-            width: 50%;
-        } */
-
         
     </style>
     
 </head>
 <body>
-    <nav class="nav">
+    <nav>
         <div>
-            <img src="https://www.ntcommunity.org.au/wp-content/uploads/2023/07/Foodbank-Logo-Primary_RGB_Cropped.png" width="80" height="80" alt="">
-        
+            <img class="logo" src="https://www.ntcommunity.org.au/wp-content/uploads/2023/07/Foodbank-Logo-Primary_RGB_Cropped.png" alt="">
         </div>
-        <ul>
+        <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="product.html">Product</a></li>
             <li><a href="login.html">Login</a></li>
@@ -73,25 +105,60 @@
             <li><a href="signup.html">Signup</a></li>
         </ul>
     </nav>
-    <div class="s1"><h1>SHOP THE PANTRY</h1></div>
-    <p><b><i><div class="t2">Bring the flavors of Africa into your kitchen with our curated selection of authentic ingredients,spices and artisonal products</i></b></p></div>
-    <div class="image1">
-        <img src="https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1503934357/p/photo/image/2201067/wall-shelving-system-p-slot-for-storage-room.jpg"width=500 alt="pantry">
+    <div class="s1">
+        <h1>SHOP THE PANTRY</h1>
     </div>
-    <ul>
-        <h1><b><div class="s2">Exotic spices</div></b></h1>
-       <div class="t1"><p>Transport your taste buds with our collection of exotic spices sourced directly from Africa. <br>From vibrant berbere to aromatic za'tar,each spice adds depth and authenticity to your culinary creations.</li></p></div>
-        <div class="image2"><img src="https://foodstuff-africa.com/wp-content/uploads/2016/02/spice-e1458157654299.jpg" width="500" height="200" alt="spices"></div>
-        <b><div class="p2">Sauces and condiments</div></b>
-            <p><div class="t3">Elevate your dishes with our range of flavorful  sauces and condiments. <br>Explore the rich and tangy flavors of harissa,the smoky sweetness of tamarind sauce,or the fiery kick of peri-peri sauce or <a href="https://en.wikipedia.org/wiki/Shito">shito</a>.</li></p></div>
-        <div class="image3"><img src="https://afrifoodnetwork.com/wp-content/uploads/2021/08/shitto-sauce-African-sauce-scaled.jpg" width="500" height="200" alt="shito"></div>
+    <p><b><i><div class="t2">Bring the flavors of Africa into your kitchen with our curated selection of authentic ingredients,spices and artisonal products</div></i></b></p>
+    <div class="image1">
+        <img src="https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1503934357/p/photo/image/2201067/wall-shelving-system-p-slot-for-storage-room.jpg" alt="pantry">
+    </div>
+    <div>
+        <h1 class="s2"><b>Exotic spices</b></h1>
+        <div class="t1">
+            <p>Transport your taste buds with our collection of exotic spices sourced directly from Africa. <br>
+            From vibrant berbere to aromatic za'tar,each spice adds depth and authenticity to your culinary creations.
+            </p>
+        </div>
+
+        <div>
+        <div class="image2">
+            <img src="https://foodstuff-africa.com/wp-content/uploads/2016/02/spice-e1458157654299.jpg"  alt="spices">
+        </div>
+
+        <div class="p2"><b>Sauces and condiments</b></div>
+        <div>
+            <p class="t3">Elevate your dishes with our range of flavorful  sauces and condiments. <br>
+                Explore the rich and tangy flavors of harissa,the smoky sweetness of tamarind sauce,or the fiery kick of 
+                peri-peri sauce or <a href="https://en.wikipedia.org/wiki/Shito">shito</a>.
+            </p>
+        </div>
+
+        <div class="image3">
+            <img src="https://afrifoodnetwork.com/wp-content/uploads/2021/08/shitto-sauce-African-sauce-scaled.jpg" alt="shito">
+        </div>
         <div class="p3"><b>Grains and legumes</b></div>
-            <p><div class="t4">Discover the staple ingredients of African cuisine,from hearty grains like couscous and millet to nutrituous legumes such as lentils and chickpeas. <br>These versatile ingredients are perfect for preparing comforting stews,savory pilafs and satisfying salads</b></li></p></div>
-        <div class="image4">><img src="https://www.foodsafetyafrica.net/wp-content/uploads/2021/10/Grains.jpg" width="500" height="200" alt="grains and legumes"></div>
+        <div>
+              <p class="t4">Discover the staple ingredients of African cuisine,from hearty grains like couscous and millet to nutrituous legumes such as lentils and chickpeas. 
+                <br>These versatile ingredients are perfect for preparing comforting stews,savory pilafs and satisfying salads
+            </p>
+        </div>
+
+        <div class="image4">
+            <img src="https://www.foodsafetyafrica.net/wp-content/uploads/2021/10/Grains.jpg" alt="grains and legumes">
+        </div>
         <div class="p4"><b>Artisinal Products</b></div>
-            <p><div class="t5">Immerse yourself in the artisinal craftmaship of Africa with our haandpicked selection of authentic products. <br>From hand-carved wooden utensils to intricately woven baskets,each item is a testament to the rich culture heritage and craftmaship of the continent</b></li></p></div>
-        <div class="image5"><img src="https://tse3.mm.bing.net/th?id=OIP.5btpHJVkPMNfSXNhFCk8bQHaE7&pid=Api&P=0&h=220" width="500" height="200" alt="african pot"></div>
-    </ul>
+        <div>
+            <p class="t5">Immerse yourself in the artisinal craftmaship of Africa with our haandpicked selection of authentic products. <br>
+                From hand-carved wooden utensils to intricately woven baskets,each item is a testament to the rich culture heritage and 
+                craftmaship of the continent
+            </p>
+        </div>
+
+        <div class="image5">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.5btpHJVkPMNfSXNhFCk8bQHaE7&pid=Api&P=0&h=220"  alt="african pot">
+        </div>
+    </div>
+    
     <hr>
     <footer>
     <h4>Please follow us on our socials👍👍</h4>

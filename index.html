@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <div class="b2">
-
-        <script src="https://kit.fontawesome.com/25e05cd86b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/25e05cd86b.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
-        
-         
         
         .big-div{
             display: flex;
@@ -23,8 +19,32 @@
         
 
         /* styling for the navigation */
+        nav{
+            display: flex;
+            justify-content: space-between;
+           
+            
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            background-color: purple;
+            align-self: center;
+            
+        }
 
-        .nav{
+        .menu li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu li{
+            list-style: none;
+            padding: 10px 0px;
+        }
+
+        /* .nav{
             display: flex;
             justify-content: space-around;
             background-color: aliceblue;
@@ -42,10 +62,21 @@
             text-decoration: none;
         }
 
-        img{
-            /* width: 30%; */
+        li{
+            list-style: none;
         }
-        .image1{text-align: center;}
+
+        img{ */
+            /* width: 30%; */
+        /* } */
+
+        .image1{
+            text-align: center;
+        }
+
+        .image1 img{
+            border: 10px solid black; width: 900; height: 500;
+        }
         .image2{display: flex;
     flex-wrap: wrap;
 justify-content: space-around; 
@@ -56,13 +87,12 @@ justify-content: space-around;
     border: 5px solid black;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
-.image4{
-}
+/* .image4{
+} */
 
-        li{
-            list-style: none;
-        }
+        
 
         /* styling for the images on the landing page */
 
@@ -75,12 +105,12 @@ justify-content: space-around;
 </head>
 <body>
  <!-- <div cl1ass="big-div"> -->
-    <nav class="nav">
+    <nav>
         <div>
             <img src="https://www.ntcommunity.org.au/wp-content/uploads/2023/07/Foodbank-Logo-Primary_RGB_Cropped.png" width="80" height="80" alt="">
         
         </div>
-        <ul >
+        <ul class="menu" >
         <li><a href="index.html">Home</a></li> 
         <li><a href="pages/product.html">Product</a></li> 
         <li><a href="pages/login.html">Login</a></li>
@@ -90,9 +120,9 @@ justify-content: space-around;
     </nav>
 
 
-
+<div>
 <div class="image1">
-     <img src="https://cdn1.neighbourly.com/projects/5f80779d4a6cbc83b097a4e0/images/5f8083efa854d33b387ab751.jpg?h=500&mode=pad&bgcolor=ffffff&crop=0,0,100,100&cropxunits=100&cropyunits=100&scale=both" width="1000px" height="500px" alt="">
+     <img src="images/afri food.jpg" width="900px" height="500px" alt="">
     </div>
 
     <div class="image2">
@@ -103,22 +133,27 @@ justify-content: space-around;
 
 <div class="image3">
 <div class="image4"><img src="https://wallpapers.com/images/hd/vegetables-pictures-qs8trfk65nvldcyr.jpg" width="500" height="400" alt=""></div>
+<h1>Vegetables</h1>
 </div>
 
 <div class="image3">
 <div class="image4"><img src="https://www.treehugger.com/thmb/i3AXdd9-LxW12Z7FiusclO4Nzrw=/2121x1414/filters:fill(auto,1)/GettyImages-469096242grains-52d3599eb67141109b7647703ad5fe9a.jpg" width="500" height="400"  alt=""></div>
+<h1>Cereals</h1>
 </div>
 
 <div class="image3">
 <img src="https://www.nutritionadvance.com/wp-content/uploads/2021/05/different-types-of-flour-1024x683.jpg" width="500" height="400" alt="">
+<h1>Flours</h1>
 </div>
 
 <div class="image3">
 <img src="https://hmhub.in/wp-content/uploads/2019/07/Sauces-images.jpg" width="500" height="400" alt="">
+<h1>Sauces</h1>
 </div>
 
 <div class="image3">
 <img src="https://vinawang.com/wp-content/uploads/2017/06/cassava-root-in-basket-large-1024x536.jpg" width="500" height="400" alt="">
+<h1>Tubers</h1>
 </div>
 </div>
 </div>
