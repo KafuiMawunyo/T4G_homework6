@@ -29,3 +29,15 @@ function alertVegetableLink(){
 //added a click event to the vegetable image
 let vegetables = document.getElementById("vegetables");
 vegetables.addEventListener("click" , alertVegetableLink);
+
+//adding a load more feature//
+function loadMore(){
+    let see = document.getElementById("pictures"); //selecting the div you want to show
+    // see.style.display = "block";
+    see.style.display = "flex";
+    see.style.flexWrap = "wrap";
+    line.style.display ="none";
+}
+
+let line = document.getElementById("line"); //selects the button w/ id line
+line.addEventListener("click", loadMore );
