@@ -41,3 +41,14 @@ function loadMore(){
 
 let line = document.getElementById("line"); //selects the button w/ id line
 line.addEventListener("click", loadMore );
+
+// function dropdown() {
+//     let food = document.getElementById("maize");
+//     food.style.display = "hidden";
+    
+// }
+
+
+// let food = document.getElementById("maize");
+// food.addEventListener("click" , dropdown);
+

@@ -80,7 +80,13 @@ justify-content:space-between;}
 .image3{border: 1px solid black;
 width: 32%;
 margin-top: 20px;
-background-color: teal;}
+background-color: teal;
+border-radius: 3px;}
+
+.image3 h1:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
 
 .flex-container2{display: flex;
         justify-content: space-around;
@@ -100,6 +106,7 @@ justify-content:space-between;}
     padding: 20px;
     font-size: 30px;}
 
+    .f{display: none;}
         
         
 
@@ -142,25 +149,25 @@ justify-content:space-between;}
   <div class="flex-container">
   <div class="image3">
     <img src="https://wallpapercave.com/wp/wp3400752.jpg" width="500" height="400" alt="">
-    <h1>watermelon</h1>
-    <p>Watermelon is a refreshing and juicy delight perfect for hot summer days. 
+    <h1 id="watermelonH">watermelon</h1>
+    <p class="f" id="watermelon">Watermelon is a refreshing and juicy delight perfect for hot summer days. 
     This vibrant fruit offers a burst of sweetness and hydration, packed with vitamins A, B6, and C. 
      Enjoy it sliced, diced, or blended into a cool smoothie. Dive into the succulent world of watermelon and experience the ultimate refreshment</p>
-     <button><a href="https://www.healthline.com/nutrition/foods/watermelon">Learn more</a></button>
+     <button><a href="https://www.healthline.com/nutrition/foods/watermelon" target="_blank">Learn more</a></button>
 </div>
    
 <div class="image3">
   <img src="https://www.gardeningknowhow.com/wp-content/uploads/2021/08/Orange-fruits.jpg" width="500" height="400" alt="">
-    <h1>Orange</h1>
-    <p>Orange fruit is a citrus powerhouse bursting with tangy sweetness and vibrant flavor.
+    <h1 id="orangeH">Orange</h1>
+    <p class="f" id="orange">Orange fruit is a citrus powerhouse bursting with tangy sweetness and vibrant flavor.
     <br>Rich in vitamin C and antioxidants, oranges are perfect for boosting your immune system and adding a zesty twist to your day. <br>Enjoy them peeled, juiced, or as a refreshing addition to salads. Experience the sunny, 
   uplifting taste of oranges and add a splash of brightness to your life</p>
 </div>
         
       <div class="image3">
     <img src="https://img.freepik.com/premium-photo/rice-grains-glass-bowl_206895-268.jpg" width="500" height="400" alt="">
-    <h1>Rice</h1>
-    <p>Rice is a versatile and staple grain enjoyed worldwide, known for its mild flavor and ability to complement a variety of dishes. Rich in carbohydrates and essential nutrients, 
+    <h1 id="food">Rice</h1>
+    <p class="f">Rice is a versatile and staple grain enjoyed worldwide, known for its mild flavor and ability to complement a variety of dishes. Rich in carbohydrates and essential nutrients, 
     rice provides a wholesome and satisfying base for meals. Whether served steamed, fried, or as part of a savory risotto, rice is a culinary essential that brings comfort and nourishment to every plate.
      Discover the endless possibilities with rice and elevate your dining experience</p>
     </div> 
@@ -169,8 +176,8 @@ justify-content:space-between;}
       <div class="flex-container2" >
     <div class="image3">
     <img src="https://www.theseedcollection.com.au/assets/full/X-043.jpg?20201210124444" width="500" height="400" alt="">
-    <h1>Maize</h1>
-    <p>Maize, commonly known as corn, is a versatile and nutritious grain that is a staple in many cuisines 
+    <h1 id="food">Maize</h1>
+    <p class="f">Maize, commonly known as corn, is a versatile and nutritious grain that is a staple in many cuisines 
     worldwide. Rich in fiber, vitamins, and essential minerals, maize is a wholesome and satisfying addition 
     to any meal. Its sweet, slightly nutty flavor makes it perfect for a variety of dishes, from grilled corn on the cob and creamy polenta to hearty cornmeal and tortillas.
     Discover the delicious and diverse uses of maize and enjoy its
@@ -179,8 +186,8 @@ justify-content:space-between;}
            
   <div class="image3">
 <img src="https://www.mashed.com/img/gallery/11-ketchup-brands-ranked-from-worst-to-best/l-intro-1635516275.jpg" width="500" height="400" alt="">
-    <h1>Ketchup</h1>
-    <p>Ketchup is a beloved condiment known for its tangy and sweet flavor, 
+    <h1 id="food">Ketchup</h1>
+    <p class="""f">Ketchup is a beloved condiment known for its tangy and sweet flavor, 
     making it a perfect companion for a wide range of dishes. Made from ripe tomatoes, vinegar, sugar, 
     and a blend of spices, ketchup adds a delicious zest to burgers, fries, sandwiches, and more. Whether used as a dip, a topping, or an ingredient in sauces, ketchup brings a burst of flavor that enhances every bite.
  Enjoy the classic taste of ketchup and elevate your meals with this timeless favorite</p>
@@ -189,8 +196,8 @@ justify-content:space-between;}
                 
 <div class="image3">
 <img src="https://eatwellabi.com/wp-content/uploads/2021/02/cocoyam.jpg" width="500" height="400" alt="">
-<h1>Cocoyam</h1>
-<p>Cocoyam, a nutrient-rich root vegetable, is cherished for its earthy flavor and versatility in the kitchen. 
+<h1 id="food">Cocoyam</h1>
+<p class="f">Cocoyam, a nutrient-rich root vegetable, is cherished for its earthy flavor and versatility in the kitchen. 
 Packed with fiber, vitamins, and minerals, cocoyam is a wholesome addition to any meal. 
 Its starchy texture makes it perfect for boiling, roasting, or mashing, and it can be used in soups, stews, and even baked goods. 
 Discover the unique taste and culinary potential of cocoyam and enjoy 
@@ -215,6 +222,6 @@ its nourishing benefits in your favorite dishes</p>
     </div>
     </footer>
     
-
+<script  src="../src/product.js"></script>
 </body>
 </html>
