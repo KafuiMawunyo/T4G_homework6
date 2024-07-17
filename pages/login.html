@@ -46,8 +46,14 @@ margin-top: 5px;
 border-style: ridge; border-color: coral;}
 .food{background-color: teal;}
 
-.t1{font-family: cursive;
+.t1 {
+    font-family: cursive;
+    
 }
+
+
+    
+
 h1{font-family: cursive;
 text-align: center;
 }
@@ -63,10 +69,17 @@ text-align: center;
 
     form div input{
         padding: 30px;
+        margin: 10px;
+        border-radius: 20px;
     }
 
     .text2 button{padding: 20px;
     border-radius: 20px;}
+
+    .email{display: none;}
+
+    .here hover{cursor: pointer;}
+    
         
 
 
@@ -113,7 +126,10 @@ text-align: center;
     
 <div class="text2">
     <div class="image-2"><img src="https://www.south-africa-tours-and-travel.com/images/lost-city-restaurant-southafricanfood.jpg" width="400"  alt="food safari"></div>
-    <button>Click here to join</button>
+    <button id="clickb">Click here to join our food safari</button>
+    
+    
+    <div class="email" id="label">
     <form action="">
         <div>
         <label for="Email">Email</label>
@@ -123,7 +139,9 @@ text-align: center;
         <label for="Password">Password</label>
         <input type="Password" name="" id="">
     </div>
-    <div>
+</div>
+   
+<div>
         <input type="submit" value="Submit">
     </div>
     </div>
@@ -139,5 +157,6 @@ text-align: center;
     <a href="https://x.com/mawu_k?s=21&t=9zn5zb900KM9CnM7EWFeAg"><i class="fa-brands fa-x-twitter"></i></a>
     </div>
     </footer>
+    <script src="../src/login.js"></script>
 </body>
 </html>
